@@ -20,6 +20,8 @@ $env:GEMINI_API_KEY="your-key-here"     # PowerShell
 
 ## Usage
 
+You can also pick a different model with `--model`, e.g. `python -m ask_llm.cli "..." --model gemini-3.6-flash`.
+
 ```bash
 python -m ask_llm.cli "What is the capital of France?"
 ```
